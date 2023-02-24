@@ -2,10 +2,10 @@
 
 
 <div align="center">
-  <img src="app1.png" width="150" height="300" alt="APP ANDROID">
+  <img src="app1.png" width="600" height="550" alt="APP ANDROID">
 </div>
 
-
+<strong>
 <p>
 El sistema combina servicios desarrollados en PHP, los cuales se alojan en un servidor remoto, se encargan de administrar la conexión con la base de datos (Mysql). El flujo del programa se describe a continuación:
 
@@ -20,11 +20,19 @@ El sistema combina servicios desarrollados en PHP, los cuales se alojan en un se
 <p>
 Esta App en particular está desarrollada para la gestión de profesionales del rubro Odontológico, mediante la App pueden consultar liquidaciones de sus prestaciones, datos de aranceles, cartera de clientes, agendar eventos, entre otras funciones
 </p>
+  </strong>
 
 
 
 
 <div align="center">
-  <img src="app2.png" width="150" height="300" alt="APP ANDROID">
+  <img src="app2.png" width="600" height="550" alt="APP ANDROID">
 </div>
+
+
+
+
+## ENLACE DE LA APP EN GOOGLE PLAY -> [IR A Google Play Store](https://play.google.com/store/apps/developer?id=Uno+Nuevas+Tecnolog%C3%ADas+SRL&hl=es)
+
+
 
