@@ -1,0 +1,92 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:id="@+id/Calificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/et_ho00_fecha"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:fontFamily="Calibri"
+            android:text="Fecha"
+            android:textColor="#000000"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/et_ac_fecha"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.41"
+            android:background="#6699FF"
+            android:text="fecha"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/text_ho00_verventa"
+            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+
+            android:text="   " />
+
+        <TextView
+            android:id="@+id/et_ac_registro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.37"
+            android:background="#6699FF"
+            android:text="oper"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/et_ac_mom"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+
+            android:text="res" />
+
+        <TextView
+            android:id="@+id/et_ac_origen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="7dp"
+            android:layout_weight="0.41"
+            android:text="origino"
+            android:textColor="#AA0000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/Calificacion"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Calificacion" >
+
+        <TextView
+            android:id="@+id/et_ac_detalle"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre "
+            android:textColor="#3366FF" />
+    </LinearLayout>
+
+
+</RelativeLayout>
+

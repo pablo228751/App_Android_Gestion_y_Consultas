@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:background="#FFFFFF"
+    >
+
+    <LinearLayout
+        android:id="@+id/lin_11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/text_vercom_nro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Nro"
+            android:textColor="#0066FF" />
+
+        <TextView
+            android:id="@+id/text_vercom_fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/lin_12"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/lin_11"
+            android:text="Fecha" />
+
+        <TextView
+            android:id="@+id/text_vercom_oper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="oper"
+            android:textStyle="bold"
+            android:textColor="#D50000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/lin_11" >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/lin_12"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/text_vercom_oper"
+            android:layout_toRightOf="@+id/text_vercom_oper"
+            android:textStyle="bold"
+            android:textColor="#263238"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:text="Total $ " />
+
+        <TextView
+            android:id="@+id/text_vercom_total"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:text="total"
+            android:textStyle="bold"
+            android:textColor="#263238"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lin_12"  >
+        >
+
+        <Button
+            android:id="@+id/button_firmar_pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_azul_1"
+            android:textSize="11sp"
+            android:text="Firmar" />
+
+        <Button
+            android:id="@+id/button_volver_pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_celeste_1"
+            android:layout_marginRight="7dp"
+            android:text="Volver" />
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lin_13"  >
+    </ListView>
+
+
+
+</RelativeLayout>

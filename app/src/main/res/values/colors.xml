@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#20B9CD</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#840C1E</color>
+    <color name="DatoCeleste">#0B9DCD</color>
+    <color name="DatoNaranja">#CE4C0A</color>
+    <color name="DatoVerde">#669966</color>
+    <color name="DatoRojo">#e6b38c</color>
+    <color name="DatoGris">#CCCCCC</color>
+    <color name="DatoAmarillo">#C4C413</color>
+    <color name="DatoFondo">#304769</color>
+    <color name="azul_1">#0D47A1</color>
+    <color name="azul_2">#1565C0</color>
+    <color name="azul_3">#1976D2</color>
+    <color name="azul_4">#1E88E5</color>
+    <color name="azul_5">#2196F3</color>
+    <color name="azul_6">#42A5F5</color>
+    <color name="azul_7">#E3F2FD</color>
+    <color name="rojo_1">#E53935</color>
+    <color name="verde_1">#4DB6AC</color>
+    <color name="gris_1">#E0E0E0</color>
+
+</resources>
+
+
+
+
+

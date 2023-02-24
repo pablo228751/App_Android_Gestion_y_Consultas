@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/marco1"
+    android:background="@color/DatoFondo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/Calificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/et_age_fecha"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="Calibri"
+            android:text="Codigo"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_com_monto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="3dp"
+        android:text="precio"
+        android:textColor="#AA0000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_com_codigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_cc_nombre"
+        android:layout_toRightOf="@+id/Calificacion"
+        android:text="codigo"
+        android:textColor="#3366FF" />
+
+    <TextView
+        android:id="@+id/text_com_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Calificacion"
+        android:layout_alignRight="@+id/text_com_monto"
+        android:layout_below="@+id/Calificacion"
+        android:text="detalle"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/text_cc_obs"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/text_com_cantidad"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="Calibri"
+        android:text="Cantidad"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/text_com_cantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/text_cc_obs"
+        android:text="cantidad"
+        android:textColor="#3366FF" />
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Cuentacorriente" >
+
+    <TextView
+        android:id="@+id/text_vercli_saldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:textColor="@color/DatoVerde"
+        android:text="Saldo $" />
+
+    <TextView
+        android:id="@+id/text_saldo_vercliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/text_vercli_saldo"
+        android:layout_toRightOf="@+id/text_vercli_saldo"
+        android:layout_marginLeft="14dp"
+        android:text="......."
+        android:textColor="#993300"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_vercli_listado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_saldo_vercliente"
+        android:layout_marginLeft="14dp"
+        android:text="Listado de movimientos en la cuenta"
+        android:textColor="@color/DatoCeleste" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/text_vercli_listado" >
+
+    </ListView>
+
+
+</RelativeLayout>

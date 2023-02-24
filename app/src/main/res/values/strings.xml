@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Dato 5</string>
+    <string name="action_settings">Actualizar tablas</string>
+    <string name="hello">Hello World, CaptureSignatureActivity!</string>
+    <string name="external_dir">GetSignature</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="det">Det:</string>
+    <string name="nreg">Nº:</string>
+    <string name="ins">Grabar</string>
+    <string name="act">Act</string>
+    <string name="elim">Borrar</string>
+    <string name="can">Can</string>
+    <string name="cod">Cod</string>
+    <string name="val">Tit:</string>
+    <string name="consi">Cons I</string>
+    <string name="insi">+ I</string>
+    <string name="elimi">- I</string>
+    <string name="acti">&lt;&gt; I</string>
+    <string name="ncta">Cta:</string>
+    <string name="ord">Orden:</string>
+    <string name="ajustes">Ajustes....</string>
+    <string name="title_activity_configuracion">Ajustes</string>
+    <string name="title_activity_actualizar">Actualizar Tablas</string>
+    <string name="title_activity_principal">Dato 5</string>
+    <string name="title_activity_agenda">Agenda</string>
+    <string name="title_activity_horario">Marca de Ingreso</string>
+    <string name="title_activity_salida">Marca de Salida</string>
+    <string name="title_activity_verhorarios">Ver horarios</string>
+    <string name="title_activity_acthorarios">Enviar horarios</string>
+    <string name="title_activity_vercliente">Ver Cuenta</string>
+    <string name="title_activity_foto">Ver Cuenta</string>
+    <string name="title_activity_veros">Ver Servicios</string>
+    <string name="title_activity_clientes">Clientes</string>
+    <string name="title_activity_altacliente">Alta de Cliente</string>
+    <string name="title_activity_vercomprobante">Ver Comprobante</string>
+
+    <string name="title_activity_stock">Códigos</string>
+    <string name="title_activity_enviarstock">Envio de Códigos</string>
+
+    <string name="title_activity_stockver">Ver Código</string>
+    <string name="title_activity_np">Notas de Pedidos</string>
+    <string name="title_activity_abc_np">Alta NP</string>
+
+    <string name="title_activity_os">Ordenes de Servicios</string>
+    <string name="title_activity_abc_os">Alta OS</string>
+    <string name="title_activity_re">Recibos</string>
+    <string name="title_activity_abc_re">Alta Recibos</string>
+
+
+    <string name="title_activity_venta">Prestaciones</string>
+    <string name="title_activity_verventa">Ver Prestación</string>
+    <string name="title_activity_vernp">Ver Notas de Pedidos</string>
+    <string name="title_activity_verre">Ver Recibos</string>
+    <string name="title_activity_tmp_re_editar">Edición de Recibo</string>
+
+    <string name="title_activity_tmp_np_editar">Editar NP</string>
+    <string name="title_activity_controla">Ver Visitas</string>
+    <string name="title_activity_llamadas">Llamadas a Atención</string>
+    <string name="title_activity_consulta_cod">Consulta Stock</string>
+    <string name="title_activity_consulta_re">Consulta Cta Cte</string>
+    <string name="title_activity_preferencias">Preferencias del Sistema</string>
+    <string name="title_activity_pileta">Ingreso Pileta</string>
+    <string name="title_activity_zz">Ingreso Freezers</string>
+    <string name="title_activity_abczz">Ingreso Freezers</string>
+
+    <string name="text_usu_no00">Usuario</string>
+    <string name="text_det_ag00">Detalle a agendar: </string>
+    <string name="text_enviar_no00">Enviar</string>
+    <string name="text_volver_no00">Volver</string>
+    <string name="text_enviar_ag01">Enviar</string>
+    <string name="text_volver_ag01">Volver</string>
+    <string name="text_butt_principal">Mantenga presionado para acceder al menu Principal</string>
+    <string name="cons">Ver</string>
+    <string name="text_men_movimientos">Agenda</string>
+    <string name="text_men_act_horarios">Envia Entllamdaradas/Salidas al Hosting</string>
+
+    <string name="text_men_clientes">Clientes</string>
+    <string name="text_men_np">Notas de Pedido</string>
+    <string name="text_men_recibo">Emisión de Recibos</string>
+    <string name="text_men_zz">Administra Freezers</string>
+
+    <string name="text_men_venta">Consulta de Ventas</string>
+    <string name="text_men_stock">Consulta Códigos</string>
+    <string name="text_men_os">Ordenes de Servicio</string>
+    <string name="text_men_ho">Entradas / Salidas</string>
+    <string name="text_men_co"> Visitas Anteriores</string>
+    <string name="text_men_ll"> Envio Llamadas</string>
+
+    <string name="text_men_expensas">Consulta de Expensas</string>
+    <string name="text_men_eventos">Ingreso de Eventos</string>
+    <string name="text_men_visitas">Autoriza Visitas</string>
+    <string name="text_men_reservas">  Reservas  </string>
+    <string name="text_ip">Ingrese IP</string>
+    <string name="text_men_pileta">Ingreso a Pileta</string>
+    <string name="text_men_agendapr">Agenda Propietario</string>
+</resources>

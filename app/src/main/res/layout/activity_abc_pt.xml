@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/Theme.AppCompat.Light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/et_ve00_fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"  />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2sp" >
+
+        <TextView
+            android:id="@+id/text_abc_np_nro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="7dp"
+            android:text="Paciente"
+            android:textColor="#0D47A1" />
+
+        <EditText
+            android:id="@+id/edit_abcnp_tit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="4"
+            android:ems="10"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/edit_abcnp_cta"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:ems="10"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/butt_abcnp_cliente"
+            android:layout_width="78dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_buscar_1"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_gravity="right" >
+
+        <TextView
+            android:id="@+id/text_abc_np_tipo"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="7dp"
+            android:text="Tipo"
+            android:textColor="#0D47A1" />
+
+        <Spinner
+            android:id="@+id/spin_cons_cod"
+            style="@android:style/Widget.Spinner"
+            android:layout_width="223dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="7dp"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/text_np_operacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="7dp"
+            android:text="Obser:"
+            android:textColor="#0D47A1" />
+
+        <EditText
+            android:id="@+id/edit_abcnp_mot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/text_np_operacionc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="7dp"
+            android:text="Total... $"
+            android:textColor="#0D47A1" />
+
+        <EditText
+            android:id="@+id/edit_abcnp_tot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:enabled="false"
+            android:textAlignment="center"
+            android:textSize="14sp"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/butt_abcnp_buscar"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:text="Códigos"
+            android:layout_margin="3dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_celeste_1"
+            android:textSize="11sp" />
+
+        <Button
+            android:id="@+id/butt_abcnp_grabar"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:text="Grabar"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_azul_1"
+            android:textSize="11sp" />
+
+        <Button
+            android:id="@+id/butt_abcnp_volver"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:text="Volver"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_azul_5"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/butt_abcnp_odonto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_rojo_1"
+            android:text="Odontograma"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp" />
+
+        <Button
+            android:id="@+id/butt_abcnp_fotos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_verde_1"
+            android:text="Fotos"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp" />
+        <Button
+            android:id="@+id/butt_abcnp_camara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:background="@color/DatoGris"
+            android:text="Camara"
+            android:textColor="#000000"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+    </ListView>
+
+</LinearLayout>

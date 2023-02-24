@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_ver_nrocta"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textColor="#993300"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text_di_cliente"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:text="Dirección"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edi_dir_cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/text_abc_np_nro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teléfono" />
+
+    <EditText
+        android:id="@+id/edi_te_cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mail" />
+
+    <EditText
+        android:id="@+id/edi_aail_cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacto" />
+
+    <EditText
+        android:id="@+id/edi_contacto_cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/butt_grabar_vercliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.80"
+            android:text="Grabar" />
+
+        <Button
+            android:id="@+id/butt_volver_vercliente"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.27"
+            android:text="Volver" />
+
+    </LinearLayout>
+
+</LinearLayout>

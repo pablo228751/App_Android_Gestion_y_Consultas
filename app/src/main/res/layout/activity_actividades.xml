@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    tools:context="com.example.covm.prestaciones" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_cod_tit"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Consultar PADRON y  ARANCELES"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center" />
+
+
+        <TextView
+            android:id="@+id/text_cod_cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elija Obra Social"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/spin_act_pt02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.Spinner"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <CheckBox
+                android:id="@+id/check_nos"
+                style="@android:style/Widget.Holo.CompoundButton.CheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mostrar Prestaciones"
+                android:textColor="@color/colorPrimaryDark"
+                android:visibility="visible"
+                android:checked="true"
+                tools:visibility="visible" />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+
+            <Button
+                android:id="@+id/butt_act_buscar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/btn_celeste_1"
+                android:gravity="center"
+                android:text="Buscar"
+                android:textColor="@android:color/background_light" />
+
+
+
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"></ListView>
+
+    </LinearLayout>
+
+</RelativeLayout>

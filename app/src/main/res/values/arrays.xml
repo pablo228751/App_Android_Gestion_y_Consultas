@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="agr_ve00">
+        <item>SinAgrupar</item>
+        <item>ObraSocial</item>
+        <item>Fecha</item>
+        <item>Afiliado</item>
+        <item>Codigos</item>
+    </string-array>
+    <string-array name="suc_bon">
+        <item>NP Sucursal</item>
+        <item>NP Vendedor</item>
+        <item>Presupuesto</item>
+        <item>Nota Credito</item>
+    </string-array>
+    <string-array name="tipo_iva">
+        <item>Cons Final</item>
+        <item>Exento</item>
+        <item>No inscripto</item>
+        <item>Resp Inscripto</item>
+        <item>IVA NO Responsble</item>
+        <item>Monotributo</item>
+    </string-array>
+    <string-array name="agr_mes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="agr_ano">
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+    </string-array>
+
+</resources>

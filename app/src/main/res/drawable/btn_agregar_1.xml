@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/nuevo2" android:state_pressed="true" ></item>
+    <!--  <item android:state_focused="true" android:background="@android:color/background_light"/>  en foco -->
+    <item android:drawable="@drawable/nuevo1" ></item><!-- "@android:color/holo_blue_dark" -->
+</selector>

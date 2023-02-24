@@ -1,0 +1,63 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/et_ac_detalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Detalle"
+        android:textColor="#42A5F5" />
+
+    <TextView
+        android:id="@+id/et_ac_fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_ac_detalle"
+        android:layout_below="@+id/et_ac_detalle"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/et_ac_mom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/et_ac_fecha"
+        android:layout_marginRight="18dp"
+        android:layout_toLeftOf="@+id/et_ac_origen"
+        android:fontFamily="Calibri"
+        android:text="Originó"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/et_ac_origen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/et_ac_detalle"
+        android:layout_alignBottom="@+id/et_ac_fecha"
+
+        android:layout_below="@+id/et_ac_detalle"
+        android:background="#3366FF"
+        android:text="Origen"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/et_ac_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_ac_detalle"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/et_ac_fecha"
+        android:layout_toRightOf="@+id/et_ac_fecha"
+        android:text="registro" />
+
+</RelativeLayout>
+

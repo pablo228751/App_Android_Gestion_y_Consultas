@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/et_turnos_hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/DatoCeleste"
+        android:text="hora  "
+        android:textSize="19dp"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:id="@+id/ll0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/et_turnos_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textSize="15dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/et_turnos_detalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detalle"
+            android:textColor="#42A5F5" />
+
+        <TextView
+            android:id="@+id/et_turnos_fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/DatoCeleste" />
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/et_turnos_origen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="registro" />
+
+            <TextView
+                android:id="@+id/et_turnos_registro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fecha" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+

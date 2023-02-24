@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/et_ve00_fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="HISTORIAL DEL PACIENTE"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_cc_monto1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="1dp"
+                android:text="Cant:"
+                android:gravity="center_vertical"
+                android:textColor="#0D47A1"
+                android:textSize="11sp" />
+
+            <EditText
+                android:id="@+id/edit_can_np"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:enabled="false"
+                android:textStyle="normal"
+                android:gravity="center_vertical">
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginEnd="3dp"
+                android:text="$ "
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:textSize="11sp" />
+
+            <EditText
+                android:id="@+id/edit_tot_np"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:enabled="false"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+            <Button
+                android:id="@+id/button_nuevo_pt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@android:color/background_light"
+                android:background="@drawable/btn_azul_1"
+                android:text="Nuevo" />
+
+            <Button
+                android:id="@+id/button_atras_pt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_celeste_1"
+                android:textColor="@android:color/background_light"
+                android:gravity="center"
+                android:layout_marginRight="7dp"
+                android:text="Atras" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            >
+
+        </ListView>
+
+    </LinearLayout>
+
+</RelativeLayout>

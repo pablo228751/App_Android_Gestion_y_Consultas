@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/et_ve00_fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="LISTA DE PACIENTES" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text_cli_buscar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0D47A1"
+                android:layout_marginLeft="3dp"
+                android:text="Nombre" />
+
+            <EditText
+                android:id="@+id/edit_cli_nom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:ems="8">
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/edit_cli_cta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Nº"
+                android:inputType="numberDecimal"
+                android:textColor="#000000"
+                android:layout_weight="1"
+                android:ems="5" />
+
+
+        </LinearLayout>
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/butt_cli_buscar"
+                android:layout_width="95dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="20dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/btn_buscar_1"
+                android:gravity="center_vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/butt_alta_cliente"
+                android:layout_width="95dp"
+                android:layout_height="42dp"
+                android:layout_marginRight="20dp"
+                android:paddingRight="20dp"
+                android:background="@drawable/btn_agregar_1"
+                android:gravity="center_vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"></ListView>
+
+    </LinearLayout>
+
+</RelativeLayout>
